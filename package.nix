@@ -18,7 +18,7 @@
 }: let
   version = "0.6.0";
 in
-  stdenv.mkDerivation (_finalAttrs: {
+  stdenv.mkDerivation {
     pname = "zlequalizer";
     inherit version;
 
@@ -69,4 +69,4 @@ in
       platforms = ["x86_64-linux"];
       mainProgram = "zlequalizer";
     };
-  })
+  }
