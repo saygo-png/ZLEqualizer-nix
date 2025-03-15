@@ -1,0 +1,5 @@
+= ZLEqualizer-nix
+
+A Nix flake providing the https://github.com/ZL-Audio/ZLEqualizer[ZLEqualizer] package
+
+ZLEqualizer is provided as a patched binary, because I couldn't manage to build upstream. I'll try to change to compiling in the future.
