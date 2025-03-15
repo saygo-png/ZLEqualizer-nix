@@ -19,7 +19,7 @@
   version = "0.6.0";
 in
   stdenv.mkDerivation (_finalAttrs: {
-    pname = "zlequalizer-${version}";
+    pname = "zlequalizer";
     inherit version;
 
     src = fetchurl {
