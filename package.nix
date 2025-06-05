@@ -16,15 +16,15 @@
   webkitgtk_4_0,
   autoPatchelfHook,
 }: let
-  version = "0.6.0";
+  version = "0.6.2";
 in
   stdenv.mkDerivation {
     pname = "zlequalizer";
     inherit version;
 
     src = fetchurl {
-      url = "https://github.com/ZL-Audio/ZLEqualizer/releases/download/${version}/ZL.Equalizer-${version}-Linux.zip";
-      hash = "sha256-mjlHqB4T/3jpYnJvIbKLV6EftKp1PcEJpgoplyuZTJI=";
+      url = "https://github.com/ZL-Audio/ZLEqualizer/releases/download/${version}/ZL.Equalizer-${version}-Linux-x86.zip";
+      hash = "sha256-VM3CQI/6Ag0LVvEqOrPYZYyEhhe0pgkBExSZVXl3tOY=";
     };
 
     nativeBuildInputs = [
