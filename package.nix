@@ -13,7 +13,7 @@
   fontconfig,
   libXinerama,
   libpulseaudio,
-  webkitgtk_4_0,
+  webkitgtk_4_1,
   autoPatchelfHook,
 }: let
   version = "0.6.2";
@@ -32,7 +32,7 @@ in
       autoPatchelfHook
     ];
 
-    propagatedBuildInputs = [
+    buildInputs = [
       lv2
       libXi
       libGLU
@@ -43,7 +43,7 @@ in
       fontconfig
       libXinerama
       libpulseaudio
-      webkitgtk_4_0
+      webkitgtk_4_1
     ];
 
     sourceRoot = ".";
